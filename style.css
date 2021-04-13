@@ -1,20 +1,27 @@
-.grid{
-    width: 400px;
-    height: 600px;
-    background-image: url('background.png');
-    position: relative;
-    font-size: 200px;
-    text-align: center;
+.body {
 }
-.doodler{
-    width: 87px;
-    height: 85px;
-    background-image: url('doodler-guy.png');
-    position: absolute;
+.container {
+  padding-left: 29rem;
+  text-align: center;
+  background-color: blueviolet;
 }
-.platform{
-    width: 85px;
-    height: 15px;
-    background-image: url('platform.png');
-    position: absolute;
+.grid {
+  width: 400px;
+  height: 600px;
+  background-image: url("background.png");
+  position: relative;
+  font-size: 200px;
+  text-align: center;
+}
+.doodler {
+  width: 87px;
+  height: 85px;
+  background-image: url("doodler-guy.png");
+  position: absolute;
+}
+.platform {
+  width: 85px;
+  height: 15px;
+  background-image: url("platform.png");
+  position: absolute;
 }
